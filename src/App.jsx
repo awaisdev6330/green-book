@@ -18,7 +18,7 @@ function App() {
         <Route exact path="user/login" element={<SignIn />} />
         <Route exact path="blogs" element={<BlogSection />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
